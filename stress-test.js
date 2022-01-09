@@ -4,7 +4,7 @@ const Request = require("request/request");
 const prompt = require("prompt-sync")({ sigint: true });
 var url = prompt("What is the url of the website you want to stress test? ");
 var usersAmmount = [2000, 3500, 5000, 7500, 10000]
-
+console.log("STRESS TEST STARTED ...");
 startStressTest(url)
 
 function startStressTest(url) {
@@ -42,7 +42,7 @@ function startStressTest(url) {
                 }
             }
             else {
-                console.log("A total of " + positiveRequests + " were sent out of " + usersAmmount[0])
+                console.log("A total of " + positiveRequests + " successful reqeuests were sent out of " + usersAmmount[0])
                 console.log("Number of Failed Requests were " + (usersAmmount[0] - positiveRequests));
                 console.log("Completion rate : " + ((positiveRequests / arr.length) * 100));
                 if (positiveRequests !== 0) {
