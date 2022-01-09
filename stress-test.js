@@ -33,3 +33,27 @@ function startStressTest(url) {
             }
         });
     },
+                   function (err) {
+            if (!err) {
+                console.log('All the requests arrived. The number of requests was: ' + positiveRequests);
+                if (usersAmmount.length > 0) {
+                    startStressTest(url);
+                    usersAmmount.splice(0, 1)
+                }
+            }
+            else {
+                console.log("A total of " + positiveRequests + " were sent out of " + usersAmmount[0])
+                console.log("Number of Failed Requests were " + (usersAmmount[0] - positiveRequests));
+                console.log("Completion rate : " + ((positiveRequests / arr.length) * 100));
+                if (positiveRequests !== 0) {
+                    if (usersAmmount.length > 1) {
+                        startStressTest(url);
+                        usersAmmount.splice(0, 1);
+                    }
+                }
+                else {
+                    return;
+                }
+            }
+        });
+}
