@@ -1,8 +1,7 @@
-# Internet Security - Stress Testing Tool <a href="#"><img src="https://www.freeiconspng.com/uploads/us-flag-icon-6.png" width=30 height=30></a> <a href="https://github.com/460N1/IS_Stress-Test/tree/Shqip"><img src="https://cdn3.iconfinder.com/data/icons/finalflags/256/Albania-Flag.png" width=30 height=30></a>
+# Internet Security - Stress Testing Tool <a href="#"><img src="https://www.freeiconspng.com/uploads/us-flag-icon-6.png" width=30 height=30></a> 
 
 [![](https://img.shields.io/badge/author-Ora%20Vrapcani-red.svg)](https://github.com/oravrp)
-[![](https://img.shields.io/github/license/460N1/IS_Stress-Test.svg)](https://github.com/lindkrasniqi/Internet_Security_Stress_Testing/LICENSE)
-[![](https://img.shields.io/github/release-date/460N1/IS_Stress-Test.svg?kill_cache=1)](https://github.com/lindkrasniqi/Internet_Security_Stress_Testing/releases)
+[![](https://img.shields.io/github/license/460N1/IS_Stress-Test.svg)](https://github.com/lindkrasniqi/Internet_Security_Stress_Testing/blob/main/LICENSE)
 [![](https://img.shields.io/github/release/460N1/IS_Stress-Test.svg?kill_cache=1)](https://github.com/lindkrasniqi/Internet_Security_Stress_Testing/archive/1.0.zip)
 [![](https://img.badgesize.io/460N1/IS_Stress-Test/master/ISStress.py.svg?kill_cache=1)](https://github.com/lindkrasniqi/Internet_Security_Stress_Testing/stress-test.js)
 
@@ -20,8 +19,8 @@ To be able to run the script you will need to download and install NodeJS which 
 The script uses modules so these have to be downloaded and installed as well.
 You may use the following commands in your terminal/cmd:
 ```
-  npm install async
-  npm install request
+npm install async
+npm install request
 
 ```
 ### Running the application
