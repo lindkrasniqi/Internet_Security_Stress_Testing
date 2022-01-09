@@ -33,9 +33,9 @@ Open the cloned folder:
 ```
 cd Internet_Security_Stress_Testing
 ```
-If you want to stress test localhost server type the following command to run the server!
+If you want to stress test localhost server type the following command to run the server. (--max-old-space-size=10 is a parameter that specifies the memory heap size of server) 
 ```
-node server.js
+node --max-old-space-size=10 server.js
 ```
 Then run the appication:
 ```
