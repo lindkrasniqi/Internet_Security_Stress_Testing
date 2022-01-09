@@ -1,4 +1,4 @@
-# Internet Security - Stress Testing Tool <a href="#"><img src="https://www.freeiconspng.com/uploads/us-flag-icon-6.png" width=30 height=30></a> 
+# Internet Security - Stress Testing Tool 
 
 [![](https://img.shields.io/badge/author-Ora%20Vrapcani-red.svg)](https://github.com/oravrp)
 [![](https://img.shields.io/github/license/460N1/IS_Stress-Test.svg)](https://github.com/lindkrasniqi/Internet_Security_Stress_Testing/blob/main/LICENSE)
@@ -21,6 +21,7 @@ You may use the following commands in your terminal/cmd:
 ```
 npm install async
 npm install request
+npm install prompt-sync
 
 ```
 ### Running the application
@@ -33,9 +34,8 @@ Open the cloned folder:
 ```
 cd Internet_Security_Stress_Testing
 ```
-Instalo varshmëritë:
+Run the appication:
 ```
 node stress-test.js 
-```
+'''
 
-Hap shfletuesin në http://localhost:4000/
