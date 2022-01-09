@@ -1,9 +1,8 @@
 # Internet Security - Stress Testing Tool 
 
-[![](https://img.shields.io/badge/author-Ora%20Vrapcani-red.svg)](https://github.com/oravrp)
+[![](https://img.shields.io/badge/author-Ora%20Lind%20Lum-red.svg)](https://github.com/lindkrasniqi/Internet_Security_Stress_Testing)
 [![](https://img.shields.io/github/license/460N1/IS_Stress-Test.svg)](https://github.com/lindkrasniqi/Internet_Security_Stress_Testing/blob/main/LICENSE)
-[![](https://img.shields.io/github/release/460N1/IS_Stress-Test.svg?kill_cache=1)](https://github.com/lindkrasniqi/Internet_Security_Stress_Testing/archive/1.0.zip)
-[![](https://img.badgesize.io/460N1/IS_Stress-Test/master/ISStress.py.svg?kill_cache=1)](https://github.com/lindkrasniqi/Internet_Security_Stress_Testing/stress-test.js)
+[![](https://img.shields.io/github/release/460N1/IS_Stress-Test.svg?kill_cache=1)](https://github.com/lindkrasniqi/Internet_Security_Stress_Testing/releases)
 
 This is an assignment in Internet Security for creating a tool which allows site stress testing.
 

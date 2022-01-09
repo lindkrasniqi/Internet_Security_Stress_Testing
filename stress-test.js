@@ -16,3 +16,20 @@ function startStressTest(url) {
     for (let i = 0; i < usersAmmount[0]; i++) {
         arr.push(url);
     }
+
+    async.map(arr, function (url, callback) {
+        count++;
+
+        request(url, function (error, response) {
+            if (!error && response.statusCode == 200) {
+                positiveRequests++;
+                callback(null);
+            } else {
+                if (count === arr.length) {
+                    callback(error);
+                } else {
+                    callback(null);
+                }
+            }
+        });
+    },
